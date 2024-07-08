@@ -1,7 +1,6 @@
 ToDo List: 
 Math
-Geo
+Phys
+Chem
 Completed Tasks:
-His
-L
-B
+
