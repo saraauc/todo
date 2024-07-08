@@ -1,7 +1,4 @@
 ToDo List: 
-Math
-Physics
-Hist
-Philo
+
 Completed Tasks:
-Geo
+science
