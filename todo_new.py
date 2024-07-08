@@ -1,4 +1,5 @@
 import os
+import getpass
 
 ToDo_list = []
 ToDo_complete = []
@@ -32,8 +33,10 @@ def save_data(filename):
         f.write("Completed Tasks:\n")
         f.write('\n'.join(ToDo_complete) + '\n')
 def user_interactive():
-    username= input("Please enter your username: ")
-    password = input("Please enter your password: ")
+    #username= input("Please enter your username: ")
+    username=getpass.getuser()
+    print("Current user:", username)
+    #password = input("Please enter your password: ")
     file_name = username + "Todo.txt"
     print (file_name)
     load_data(file_name)
